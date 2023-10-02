@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.banner{
+    display: flex;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.abaut{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+ 
+.abaut .abaut-img img{
+    width: 100%;
+    height: auto;
+}
+
+.copy{
+    background-color: rebeccapurple;
+    padding: 100px 10px;
+}
+@media( max-width:763px){
+    .banner{
+        display: block;
+    }
+    .abaut{
+        display: block;
+    }
+}
